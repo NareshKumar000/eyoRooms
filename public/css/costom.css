@@ -1,0 +1,142 @@
+ body {
+       font-family: 'Roboto', sans-serif;
+    }
+    #HomeBanner_container__2ij6E {
+        background: linear-gradient(135.46deg, #3ea2a4, #489fa8)!important;
+    padding: 10px 0 32px;
+    margin-bottom: 18px;
+}
+
+#HomeBanner_homebutton__1LLzo {
+    background: #ee2e24!important;
+    }
+
+    #DetailViewRecomandation_price__3JOQG {
+   
+    color: #1ab64f!important;
+  }
+
+  #DetailViewRecomandation_icon__eeMfm{
+        background-color: #1ab64f!important;
+  }
+
+  nav {    
+  display: block;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+.nav a {
+  display: block;
+    /* background: #111; */
+    color: #343a40;
+    text-decoration: none;
+    padding: 0.8em 1.8em;
+    text-transform: uppercase;
+    font-size: 80%;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 #000;
+    position: relative;
+
+}
+.nav{  
+  vertical-align: top; 
+  display: inline-block;
+  box-shadow: 
+    1px -1px -1px 1px #000, 
+    -1px 1px -1px 1px #fff, 
+    0 0 6px 3px #fff;
+  border-radius:6px;
+}
+.nav li {
+  position: relative;
+}
+.nav > li { 
+  float: left; 
+      margin-right: 31px;
+} 
+
+.nav > li:hover, 
+.nav > li:hover > a { 
+}
+.nav li:hover > a { 
+}
+.nav > li:first-child { 
+  border-radius: 4px 0 0 4px;
+} 
+.nav > li:first-child > a { 
+  border-radius: 4px 0 0 0;
+}
+.nav > li:last-child { 
+  border-radius: 0 0 4px 0; 
+  margin-right: 0;
+} 
+.nav > li:last-child > a { 
+  border-radius: 0 4px 0 0;
+}
+.nav li li a { 
+  margin-top: 1px;
+}.nav li a:first-child:nth-last-child(2):before { 
+  content: ""; 
+  position: absolute; 
+  height: 0; 
+  width: 0; 
+  border: 5px solid transparent; 
+  top: 44% ;
+  right:5px;  
+ }
+ /* submenu positioning*/
+.nav ul {
+    position: absolute;
+    white-space: nowrap;
+    z-index: 999;
+    left: -99999em;
+    background: #f3f5f7;
+    color: #000;
+    top: 31px;
+    text-align: left;
+}
+.nav > li:hover > ul {
+  left: auto;
+  margin-top: 5px;
+  min-width: 100%;
+}
+.nav > li li:hover > ul { 
+  left: 100%;
+  margin-left: 1px;
+  top: -1px;
+}
+/* arrow hover styling */
+.nav > li > a:first-child:nth-last-child(2):before { 
+  border-top-color: #aaa; 
+}
+.nav > li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+  border-bottom-color: #000; 
+  margin-top:-5px
+}
+.nav li li > a:first-child:nth-last-child(2):before {  
+  border-left-color: #aaa; 
+  margin-top: -5px
+}
+.nav li li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+
+  right: 10px; 
+}
+.container_ {
+    background: #f3f5f7;
+    width: 100%;
+}
+
+.lang_ li{
+      padding: 7px;
+}
+
+#Navbar_button__3BD74:hover {
+    border: inherit!important;
+    background: inherit!important;
+}
