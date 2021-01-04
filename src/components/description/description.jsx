@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar,faCheckCircle , faFan, faToilet, faPersonBooth, faMusic,faHandHoldingWater,faMoneyBillWave,faBreadSlice,faWifi,faFire, faHotTub, faBed,faCheese, faRestroom,faParking, faThermometerEmpty, faChair, faTv, faSoap} from "@fortawesome/free-solid-svg-icons"
 import {connect} from "react-redux"
+import Footer from "../helperComponent/Footer";
 
  class Description extends Component {
   
@@ -189,10 +190,10 @@ import {connect} from "react-redux"
                       {/*   list-single-main-item */}
                       <div className="list-single-main-item fl-wrap">
                         <div className="list-single-main-item-title fl-wrap">
-                          <h3>SPOT ON 40974 Royal residency</h3>
-                          <p>Praesent eros turpis, commodo vel justo at,</p>
+                          <h3>Abdul shaikh</h3>
+                          <p>20 mints from Mira road station sharing riksha avalable 10rs </p>
                         </div>
-                        <p>Praesent eros turpis, commodo vel justo at, pulvinar mollis eros. Mauris aliquet eu quam id ornare. Morbi ac quam enim. Cras vitae nulla condimentum, semper dolor non, faucibus dolor. Vivamus adipiscing eros quis orci fringilla, sed pretium lectus viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec velit non odio aliquam suscipit. Sed non neque faucibus, condimentum lectus at, accumsan enim. Fusce pretium egestas cursus. Etiam consectetur, orci vel rutrum volutpat, odio odio pretium nisiodo tellus libero et urna. Sed commodo ipsum ligula, id volutpat risus vehicula in. Pellentesque non massa eu nibh posuere bibendum non sed enim. Maecenas lobortis nulla sem, vel egestas  . </p>
+                        <p>Primary facilities like personal bed, personal cupboard, fridge, wifi, gas stove with cylinder, water purifier, washing machine, geyser, ac etc available. </p>
                       </div>
                       {/*   list-single-main-item end */}
                       {/*   list-single-main-item */}
@@ -375,7 +376,7 @@ import {connect} from "react-redux"
                                 </div>
                               </fieldset>
                               <input type="number" id="totaldays" name="qty5" className="hid-input" />
-                              <div className="total-coast fl-wrap"><strong>Total Cost</strong> <span>$ 800</span></div>
+                              <div className="total-coast fl-wrap"><strong>Total Cost</strong> <span>₹ 8000</span></div>
                               <button className="btnaplly color2-bg book-btn">Book Now<i className="fa fa-paper-plane" /></button>
                             </form>
                           </div>
@@ -393,8 +394,8 @@ import {connect} from "react-redux"
                             </div>
                             <div className="box-widget-list">
                               <ul>
-                                <li><span><i className="fa fa-map-marker" /> Adress :</span> <a href="#">USA 27TH Brooklyn NY</a></li>
-                                <li><span><i className="fa fa-phone" /> Phone :</span> <a href="#">+7(123)987654</a></li>
+                                <li><span><i className="fa fa-map-marker" /> Adress :</span> <a href="#">B.I.T. Block Madrasa I. R. Road, Bhendi Bazaar, Umerkhadi, Mumbai, Maharashtra 400003</a></li>
+                                <li><span><i className="fa fa-phone" /> Phone :</span> <a href="#">+919757312624</a></li>
                                 <li><span><i className="fa fa-envelope" /> Mail :</span> <a href="#">AlisaNoory@domain.com</a></li>
                               </ul>
                             </div>
@@ -698,6 +699,7 @@ import {connect} from "react-redux"
           {/*ajax-modal-container end */}
         </div>
         {/*ajax-modal-container end */}
+        <Footer />
       </div>
     );
   }

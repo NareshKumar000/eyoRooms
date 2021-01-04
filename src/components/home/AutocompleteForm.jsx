@@ -30,7 +30,7 @@ const AutocompleteForm = () => {
     <>
       <PlacesAutocomplete value={address} onChange={handleChange} onSelect={handleSelect}>
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
-          <div style={{ width: "285px" }}>
+          <div >
             <input
               style={{ height: "67px" }}
               aria-expanded="false"

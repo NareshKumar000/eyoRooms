@@ -64,7 +64,7 @@ class navbar extends Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li role="presentation" className="nav-item d-none d-md-block d-lg-block d-xl-block">
+              <li role="presentation" className="nav-item d-md-block d-lg-block d-xl-block">
                 {!user ? (
                   <Link to="/login" id={styles.button} className="nav-link btn  btn-sm font-weight-bold text-dark ">
                     <FontAwesomeIcon icon={faUserCircle} size="lg" />
@@ -82,7 +82,7 @@ class navbar extends Component {
                 )}
               </li>
 
-            <li role="presentation" className="nav-item d-none d-md-block d-lg-block d-xl-block">
+            <li role="presentation" className="nav-item d-md-block d-lg-block d-xl-block">
 
             <li class="dropdown language-selector" style={{
                   "marginTop": "16px",
@@ -125,7 +125,7 @@ class navbar extends Component {
                     </ul>
                   </li>
               </li>
-              <li role="presentation" className="nav-item d-none d-md-block d-lg-block d-xl-block">
+              <li role="presentation" className="nav-item  d-md-block d-lg-block d-xl-block">
                 {!user ? (
                   <Link to="/login" id={styles.button} className="nav-link btn  btn-sm font-weight-bold text-dark ">
                     <FontAwesomeIcon icon={faUserCircle} size="lg" />

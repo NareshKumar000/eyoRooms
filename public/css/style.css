@@ -4689,6 +4689,7 @@ article.post-article .list-single-main-item {
 .box-widget-list  li a {
 	margin-left: 20px;
     color: #878C9F;
+    display: flex;
 }
 .list-widget-social {
 	float:left;
@@ -8542,7 +8543,7 @@ section.hero-section  {
 	padding-left:15px;
 }
 .list-single-hero {
-    padding: 100px 0 0;
+    padding: 400px 0 0;
 }
 .fc-button  {
 	margin-right:5px;
@@ -8600,9 +8601,7 @@ section.hero-section  {
 .header-search-input-item  {
 	margin-bottom:15px;
 }
-.header-search-input-item .quantity-item, .col-list-search-input-item .quantity-item {
-	width: auto;
-}
+
 .header-search-button {
 	top:5px;
 }
@@ -8689,6 +8688,12 @@ section.hero-section  {
 .home-btn , .show-search-button span{
 	display:none;
 }
+ .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+    width: 19%;
+
+  }
 .nav-button-wrap   {
 	margin-left:10px;
 }
@@ -8937,6 +8942,12 @@ section.hero-section  {
 }	
 }
 @media only screen and  (max-width: 420px) {
+	 .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+    width: 19%;
+
+  }
 .add-hotel {
 	display:none;
 }

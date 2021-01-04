@@ -217,8 +217,8 @@ class HomeBanner extends Component {
             
         </div>
         <div className="row p-0">
-          <div className="col-12 d-flex justify-content-center" id={styles.container}>
-            <div className="col-10 " id={styles.wrapper}>
+          <div className="col-sm-12 d-flex justify-content-center" id={styles.container}>
+            <div className="col-sm-10 " id={styles.wrapper}>
               <div className="row justify-content-around w-100" id={styles.background}>
                 <img src="images/banner.svg" alt="" />
                 <img src="images/banner.svg" alt="" />

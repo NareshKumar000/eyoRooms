@@ -31,7 +31,7 @@ export default class HomeContent extends Component {
             { heading: "Aviraaj ", subHeading: "301, C wing, Indian Ocean, Sagar C", rating: "4", icon: faStar, review: "134", val: "Very Good", price: "5000", off: "46%" },
           ].map((elem) => {
             return (
-              <div className="col-4 p-1 " style={{ paddingLeft: "10px",cursor: "pointer" }} onClick={(e)=>this.descriptionPage()}>
+              <div className="col-sm-4 p-1 " style={{ paddingLeft: "10px",cursor: "pointer" }} onClick={(e)=>this.descriptionPage()}>
                 <div className="card w-100">
                   <img className="card-img-top" src="/images/bed.webp" />
                   <div className="card-body">
